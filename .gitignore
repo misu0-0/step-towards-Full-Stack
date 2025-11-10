@@ -188,6 +188,58 @@ cython_debug/
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
+# 🐍 Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# 🧪 Virtual environment
+venv/
+virtual/
+env/
+ENV/
+*.env
+pyvenv.cfg
+
+# 🗃️ Database files
+*.sqlite3
+db.sqlite3
+
+# 🧠 IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 🖼️ OS-specific files
+.DS_Store
+Thumbs.db
+
+# 🌐 Django static/media files
+staticfiles/
+media/
+static/
+media_root/
+
+# 🔐 Secrets and credentials
+*.key
+*.pem
+*.crt
+*.p12
+.env
+.env.local
+.env.*.local
+
+# 📦 Node.js (if using React or frontend tools)
+node_modules/
+build/
+dist/
+
+# 📁 Misc
+*.bak
+*.swp
+*.tmp
 # Ruff stuff:
 .ruff_cache/
 
